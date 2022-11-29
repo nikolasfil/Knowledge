@@ -1,0 +1,15 @@
+https://medium.com/@richdayandnight/simple-tutorial-on-hosting-your-gitbook-documentation-on-github-pages-bonus-with-gitbook-editor-f27f60d5d408
+
+ Install gitbook-cli
+
+npm install -g gitbook-cli
+
+
+check if it is installed gitbook help 
+
+because it had an error I am trying this fix from stackoverflow
+
+https://stackoverflow.com/questions/64211386/gitbook-cli-install-error-typeerror-cb-apply-is-not-a-function-inside-graceful
+
+cd /usr/local/lib/node_modules/gitbook-cli/node_modules/npm/node_modules/
+npm install graceful-fs@latest --save
